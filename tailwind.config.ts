@@ -19,6 +19,11 @@ const config = {
       },
     },
     extend: {
+      fontSize: {
+        'mobile-sm': ['14px', '20px'],
+        'mobile-base': ['16px', '24px'],
+        'mobile-lg': ['18px', '28px'],
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
