@@ -305,7 +305,7 @@ export const DATA = {
       dates: "Oct 2024 - Nov 2024",
       active: true,
       description:
-        "A Weather Dashboard built that lets users fetch and visualize current weather data and forecasts for any city in the world.",
+        "A Weather Dashboard that fetches and visualizes current weather and forecasts for any city globally.",
       technologies: [
         "Python",
         "Plotly",
