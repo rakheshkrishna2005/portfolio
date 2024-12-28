@@ -25,7 +25,7 @@ export default function Page() {
                 text={`Hi, I'm ${DATA.name} 👋`}
               />
               <BlurFadeText
-                className="max-w-[600px] text-sm md:text-base pt-4"
+                className="max-w-[600px] text-sm md:text-base pt-4 pr-3 text-justify"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
@@ -67,7 +67,11 @@ export default function Page() {
                 subtitle={work.title}
                 href={work.href}
                 badges={work.badges}
-                period={`${work.start} - ${work.end ?? "Present"}`}
+                period={
+                  <span className="text-sm text-muted-foreground text-right min-w-40 block">
+                    {work.start} - {work.end ?? "Present"}
+                  </span>
+                }
                 description={work.description}
               />
             </BlurFade>
@@ -91,18 +95,22 @@ export default function Page() {
                 altText={education.school}
                 title={education.school}
                 subtitle={education.degree}
-                period={`${education.start} - ${education.end}`}
+                period={
+                  <span className="text-sm text-muted-foreground text-right min-w-28 block">
+                    {education.start} - {education.end}
+                  </span>
+                }
               />
             </BlurFade>
           ))}
         </div>
       </section>
-      <section id="skills">
-        <div className="flex min-h-0 flex-col gap-y-3">
+      <section id="skills" className="flex justify-center">
+        <div className="flex flex-col items-center gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
+          <div className="flex flex-wrap justify-center gap-1">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
                 <Badge key={skill}>{skill}</Badge>
