@@ -163,7 +163,7 @@ export const DATA = {
   projects: [
     {
       title: "SiteVision AI",
-      href: "",
+      href: "https://tinyurl.com/sitevision-ai",
       dates: "Aug 2024 - Dec 2024",
       active: true,
       description:
@@ -182,7 +182,7 @@ export const DATA = {
       links: [
         {
           type: "Demo",
-          href: "",
+          href: "https://tinyurl.com/sitevision-ai",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -192,7 +192,7 @@ export const DATA = {
     },
     {
       title: "Vision X",
-      href: "https://github.com/rakheshkrishna2005/Vision-X",
+      href: "https://tinyurl.com/vision-x",
       dates: "Sep 2024 - Oct 2024",
       active: true,
       description:
@@ -251,7 +251,7 @@ export const DATA = {
     },
     {
       title: "Disease Progression Analyzer",
-      href: "https://automatic.chat",
+      href: "https://tinyurl.com/disease-progression-analyzer",
       dates: "Oct 2024 - Nov 2024",
       active: true,
       description:
@@ -301,7 +301,7 @@ export const DATA = {
     },
     {
       title: "Open Weather",
-      href: "https://github.com/rakheshkrishna2005/aiml-election",
+      href: "https://open-weather.streamlit.app",
       dates: "Oct 2024 - Nov 2024",
       active: true,
       description:
