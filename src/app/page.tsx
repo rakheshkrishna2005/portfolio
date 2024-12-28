@@ -68,7 +68,7 @@ export default function Page() {
                 href={work.href}
                 badges={work.badges}
                 period={
-                  <span className="text-sm text-muted-foreground text-right min-w-40 block">
+                  <span className="text-xs text-muted-foreground text-right min-w-40 block">
                     {work.start} - {work.end ?? "Present"}
                   </span>
                 }
@@ -96,7 +96,7 @@ export default function Page() {
                 title={education.school}
                 subtitle={education.degree}
                 period={
-                  <span className="text-sm text-muted-foreground text-right min-w-28 block">
+                  <span className="text-xs text-muted-foreground text-right min-w-28 block">
                     {education.start} - {education.end}
                   </span>
                 }
