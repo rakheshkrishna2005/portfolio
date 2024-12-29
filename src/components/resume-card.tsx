@@ -81,7 +81,7 @@ export const ResumeCard = ({
                   )}
                 />
               </h3>
-              {period}  {/* Just render the period directly since it's now a ReactNode */}
+              {period}
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
