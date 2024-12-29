@@ -1,6 +1,7 @@
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
+import { IconCloudDemo } from "@/components/IconCloud";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -161,7 +162,7 @@ export default function Page() {
         </div>
       </section>
       <section id="hackathons">
-        <div className="space-y-12 w-full py-12">
+        <div className="space-y-12 w-full py-12 pb-1">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -223,6 +224,11 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      <div className="flex min-h-0 flex-col gap-y-3 items-center justify-center pb-6 px-4 sm:px-8">
+        <BlurFade delay={0.25 * 5} inView className="w-full sm:w-4/5 md:w-3/5 lg:w-5/5 flex justify-center">
+          <IconCloudDemo />
+        </BlurFade>
+      </div>
     </main>
   );
 }

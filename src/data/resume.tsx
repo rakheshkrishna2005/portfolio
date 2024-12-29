@@ -10,7 +10,7 @@ export const DATA = {
   description:
   "Software Dev | AI/ML | SIH'24 Finalist | 🥈 Runner-up @M!NT (IITM) Hackathon | Contributor @GSSOC '24  @SWOC '25",
   summary:
-    "I am an AI/ML and Software Developer with [experience](/#work) in open source and developing Deep Learning, Computer Vision, and NLP models. Pursuing a [Bachelor's in Computer Science (AI & ML)](/#education), I have competed in over [5 hackathons](/#hackathons), including the Smart India Hackathon 2024 finals and securing Runner-Up in the MINT IITM Hackathon.",
+    "I am an AI/ML and Software Developer with [experience](/#work) in open source and developing Deep Learning, Computer Vision, and NLP [projects](/#projects). Pursuing a [Bachelor's in Computer Science (AI & ML)](/#education), I have competed in over [5 hackathons](/#hackathons), including the Smart India Hackathon 2024 finals and securing Runner-Up in the MINT IITM Hackathon.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
