@@ -10,7 +10,7 @@ export const DATA = {
   description:
   "Software Dev | AI/ML | SIH'24 Finalist | 🥈 Runner-up @M!NT (IITM) Hackathon | Contributor @GSSOC '24  @SWOC '25",
   summary:
-    "I am an AI/ML and Software Developer with experience in open source and developing Deep Learning, Computer Vision, and NLP models. Pursuing a [Bachelor's in Computer Science (AI & ML)](/#education), I have competed in over [5 hackathons](/#hackathons), including the Smart India Hackathon 2024 finals and securing Runner-Up in the MINT IITM Hackathon.",
+    "I am an AI/ML and Software Developer with [experience](/#work) in open source and developing Deep Learning, Computer Vision, and NLP models. Pursuing a [Bachelor's in Computer Science (AI & ML)](/#education), I have competed in over [5 hackathons](/#hackathons), including the Smart India Hackathon 2024 finals and securing Runner-Up in the MINT IITM Hackathon.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
@@ -331,11 +331,11 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "MINT Hackathon, Pals IIT Madras",
+      title: "MINT Hackathon (IIT Madras)",
       dates: "",
       location: "Chennai, India",
       description:
-        "Developed a AI application to automate the traffic management near schools and hospitals and won ₹10000.",
+        "Developed an AI application to automate the traffic management near schools and hospitals and won ₹10,000.",
       image:
         "/mint.jpeg",
       links: [
@@ -351,7 +351,7 @@ export const DATA = {
       dates: "",
       location: "Ahmedabad, India",
       description:
-        "Developed an AI software to automate the progress monitoring for road construction projects.",
+        "Developed an AI software for automating road construction progress monitoring at national finals.",
       image:
         "/sih.png",
       links: [
@@ -367,7 +367,7 @@ export const DATA = {
       dates: "",
       location: "Chennai, India",
       description:
-        "Developed a AI healthcare chatbot to assist patient with their queries.",
+        "Developed an AI healthcare chatbot to assist patients with their health-related queries.",
       icon: "public",
       image:
         "/datathon.png",
