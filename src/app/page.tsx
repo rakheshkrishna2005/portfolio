@@ -189,7 +189,11 @@ export default function Page() {
                   <HackathonCard
                     title={project.title}
                     description={project.description}
-                    location={project.location}
+                    location={
+                      <span className="text-[12px] text-muted-foreground text-left">
+                        {project.location}
+                      </span>
+                    }
                     dates={project.dates}
                     image={project.image}
                     links={project.links}

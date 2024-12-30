@@ -331,9 +331,9 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "MINT Hackathon (IIT Madras)",
+      title: "MINT Hackathon",
       dates: "",
-      location: "Chennai, India",
+      location: "IIT Madras, Chennai, India",
       description:
         "Developed an AI application to automate the traffic management near schools and hospitals and won ₹10,000.",
       image:
@@ -349,7 +349,7 @@ export const DATA = {
     {
       title: "Smart India Hackathon",
       dates: "",
-      location: "Ahmedabad, India",
+      location: "IIT Gandhinagar, Ahmedabad, India",
       description:
         "Developed an AI software for automating road construction progress monitoring at national finals.",
       image:
@@ -365,7 +365,7 @@ export const DATA = {
     {
       title: "SRM Datathon",
       dates: "",
-      location: "Chennai, India",
+      location: "IITM Reasearch Park, Chennai, India",
       description:
         "Developed an AI healthcare chatbot to assist patients with their health-related queries.",
       icon: "public",
@@ -382,7 +382,7 @@ export const DATA = {
     {
       title: "KCG Innothon",
       dates: "",
-      location: "Chennai, India",
+      location: "KCG Tech, Chennai, India",
       description:
         "Developed a workforce management system to track attendance, manage schedules, and provide performance metrics.",
       image:
