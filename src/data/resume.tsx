@@ -163,7 +163,7 @@ export const DATA = {
   projects: [
     {
       title: "SiteVision AI",
-      href: "https://tinyurl.com/sitevision-ai",
+      href: "https://rakheshkrishna2005-sitevision-map.hf.space",
       dates: "Aug 2024 - Dec 2024",
       active: true,
       description:
@@ -181,9 +181,14 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://rakheshkrishna2005-sitevision-map.hf.space",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Demo",
           href: "https://tinyurl.com/sitevision-ai",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/sitevision.jpg",
@@ -192,7 +197,7 @@ export const DATA = {
     },
     {
       title: "Vision X",
-      href: "https://tinyurl.com/vision-x",
+      href: "https://rakheshkrishna2005-vision-x.hf.space",
       dates: "Sep 2024 - Oct 2024",
       active: true,
       description:
@@ -212,9 +217,14 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
         {
+          type: "Website",
+          href: "https://rakheshkrishna2005-vision-x.hf.space",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Demo",
           href: "https://tinyurl.com/vision-x",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/visionx.jpg",
@@ -222,7 +232,7 @@ export const DATA = {
     },
     {
       title: "Alzheimer MRI Analyzer",
-      href: "https://tinyurl.com/alzheimer-mri-analysis",
+      href: "https://rakheshkrishna2005-alzheimer-mri-analyzer.hf.space",
       dates: "Oct 2024 - Nov 2024",
       active: true,
       description:
@@ -236,22 +246,22 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Demo",
-          href: "https://tinyurl.com/alzheimer-mri-analysis",
+          type: "Website",
+          href: "https://rakheshkrishna2005-alzheimer-mri-analyzer.hf.space",
           icon: <Icons.globe className="size-3" />,
         },
-        /*{
-          type: "Source",
-          href: "",
-          icon: <Icons.github className="size-3" />,
-        },*/
+        {
+          type: "Demo",
+          href: "https://tinyurl.com/alzheimer-mri-analysis",
+          icon: <Icons.googleDrive className="size-3" />,
+        },
       ],
       image: "/mriapp.jpg",
       video: "",
     },
     {
       title: "Disease Progression Analyzer",
-      href: "https://tinyurl.com/disease-progression-analyzer",
+      href: "https://rakheshkrishna2005-disease-progression-analyzer.hf.space",
       dates: "Oct 2024 - Nov 2024",
       active: true,
       description:
@@ -265,9 +275,14 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://rakheshkrishna2005-disease-progression-analyzer.hf.space",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Demo",
           href: "https://tinyurl.com/disease-progression-analyzer",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/chatbot.jpg",
@@ -319,7 +334,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
         {
-          type: "Live",
+          type: "Website",
           href: "https://open-weather.streamlit.app",
           icon: <Icons.globe className="size-3" />,
         },
