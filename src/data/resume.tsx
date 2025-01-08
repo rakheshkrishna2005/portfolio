@@ -378,6 +378,22 @@ export const DATA = {
       ],
     },
     {
+      title: "IndustriAI Hackathon",
+      dates: "",
+      location: "IIT Madras, Chennai, India",
+      description:
+        "Developed a green finance investment platform that allows financial institutions to allocate funds to green projects.",
+      image:
+        "/temenos.png",
+      links: [
+        {
+          title: "LinkedIn Post",
+          icon: <Icons.linkedin className="h-3 w-3" />,
+          href: "https://www.linkedin.com/posts/easwari-engineering-college-srm-group-_srmeaswari-easwariengineeringcollege-hackathonsuccess-activity-7245645546311319552-jnU8?utm_source=share&utm_medium=member_desktop",
+        },
+      ],
+    },
+    {
       title: "SRM Datathon",
       dates: "",
       location: "IITM Reasearch Park, Chennai, India",
