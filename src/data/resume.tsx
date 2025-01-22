@@ -246,6 +246,11 @@ export const DATA = {
       ],
       links: [
         {
+          type: "GitHub",
+          href: "https://github.com/rakheshkrishna2005/alzheimer-mri-analysis",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
           type: "Website",
           href: "https://rakheshkrishna2005-alzheimer-mri-analyzer.hf.space",
           icon: <Icons.globe className="size-3" />,
@@ -274,6 +279,11 @@ export const DATA = {
         "Streamlit",
       ],
       links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/rakheshkrishna2005/disease-progression-analyzer",
+          icon: <Icons.github className="size-3" />,
+        },
         {
           type: "Website",
           href: "https://rakheshkrishna2005-disease-progression-analyzer.hf.space",
