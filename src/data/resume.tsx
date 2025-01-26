@@ -383,7 +383,7 @@ export const DATA = {
         {
           title: "LinkedIn Post",
           icon: <Icons.linkedin className="h-3 w-3" />,
-          href: "",
+          href: "https://www.linkedin.com/posts/rakhesh-krishna-p_india-hackathons-sih2024-activity-7288918556962918401-EqhZ?utm_source=share&utm_medium=member_desktop",
         },
       ],
     },
